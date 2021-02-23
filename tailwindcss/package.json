@@ -1,13 +1,10 @@
 {
   "name": "tailwind",
   "version": "1.0.0",
-  "homepage":"https://prajwal-k-v.github.io/tailwindcss/",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css":"tailwindcss build src/styles.css -o public/styles.css",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "build-css":"tailwindcss build src/styles.css -o public/styles.css"
   },
   "keywords": [],
   "author": "",
